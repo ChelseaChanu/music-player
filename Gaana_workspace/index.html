@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MP3 Music Player</title>
+</head>
+<body>
+  <section class="top">
+    <div class="right">
+      <h5>LIBRARY</h5>
+     <ul>
+       <li><i class="fas fa-home"></i>Home</li>
+       <li><i class="fas fa-compact-disc"></i>Album</li>
+       <li><i class="fas fa-history"></i>History</li>
+       <li><i class="fab fa-gratipay"></i>Favourite</li>
+     </ul>
+     <button class="button" type="button"> + New Playlist</button>
+    </div>
+    <div class="left">
+      <span class="name"><h5>BEST SONGS COLLECTION</h5></span>
+      <ul>
+        <li><img src="Gaana_Replica/image.jpg" alt="image"> </li>
+        <span class = "iconItem">
+        <li><button  class="playButton">Play</button></li>
+        <li><i class="fab fa-3x fa-gratipay"></i></li>
+        <li><i class="fas fa-3x fa-ellipsis-h"></i></li>
+      </span>
+      </ul>
+      <div class="scrollBox">
+        <div class="songItem">
+          <img src = "Gaana_Replica/cover1.jpg" alt="1">
+          <span class="songName">Neverland - Zendaya</span>
+          <span class="songIcon">
+            <i id="0" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover2.jpg" alt="2">
+          <span class="songName">Symphony - Zara Larsson</span>
+          <span class="songIcon">
+            <i id="1" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover3.jpg" alt="3">
+          <span class="songName">Never Enough - Loren Allerd</span>
+          <span class="songIcon">
+            <i id="2" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover4.jpg" alt="4">
+          <span class="songName">2002- Anne Marie</span>
+          <span class="songIcon">
+            <i id="3" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover5.jpg" alt="5">
+          <span class="songName">Perfect - Ed Sheeran</span>
+          <span class="songIcon">
+            <i id="4" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div> <div class="songItem">
+          <img src ="Gaana_Replica/cover6.jpg" alt="6">
+          <span class="songName">See You Again - Charlie Puth</span>
+          <span class="songIcon">
+            <i id="5" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover 7.jpg" alt="7">
+          <span class="songName">Dandelions- Ruth B</span>
+          <span class="songIcon">
+            <i id="6" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover8.png" alt="8">
+          <span class="songName">Work From Home- Fifth Harmony</span>
+          <span class="songIcon">
+            <i id="7" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover9.jpg" alt="9">
+          <span class="songName">Traitor - Olivia Rodrigo</span>
+          <span class="songIcon">
+            <i id="8" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+        <div class="songItem">
+          <img src ="Gaana_Replica/cover10.jpg" alt="10">
+          <span class="songName">It Home - Megan Nicole & Jason Chen</span>
+          <span class="songIcon">
+            <i id="9" class="far songItemPlay fa-2x fa-play-circle"></i>
+            <i class="fab fa-2x fa-gratipay"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="footer"> 
+    <img class="logo" src="Gaana_Replica/logo.png">
+    <input id="progressBar" class="slider" type="range" name="range" min="0" value="0" max="100">
+    <div class="icons">
+    <i class="fas fa-2x fa-retweet"></i>
+    <i class="fas fa-2x fa-step-backward" id="previous"></i>
+    <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+    <i class="fas fa-2x fa-step-forward" id="next"></i>
+    <i class="fas fa-2x fa-volume-up"></i>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/a7b5237b1c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+</body>
+</html>
